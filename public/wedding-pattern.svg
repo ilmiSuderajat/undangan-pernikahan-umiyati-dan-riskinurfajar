@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Minimal wedding floral pattern">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3632"/>
+      <stop offset="1" stop-color="#5b5550"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.12" fill="none" stroke="#fffdf9" stroke-width="3">
+    <path d="M0 180 C220 80 370 250 580 150 C780 55 950 180 1200 86"/>
+    <path d="M0 760 C230 660 390 820 610 725 C825 632 990 760 1200 665"/>
+    <path d="M125 0 C72 175 168 330 95 520 C52 632 83 742 170 900"/>
+    <path d="M1075 0 C1128 175 1032 330 1105 520 C1148 632 1117 742 1030 900"/>
+  </g>
+  <g opacity="0.22" fill="#fffdf9">
+    <ellipse cx="164" cy="130" rx="72" ry="26" transform="rotate(-30 164 130)"/>
+    <ellipse cx="230" cy="190" rx="56" ry="22" transform="rotate(24 230 190)"/>
+    <ellipse cx="1020" cy="710" rx="72" ry="26" transform="rotate(-30 1020 710)"/>
+    <ellipse cx="950" cy="650" rx="56" ry="22" transform="rotate(24 950 650)"/>
+  </g>
+  <g opacity="0.14" fill="#d8d0c8">
+    <circle cx="118" cy="212" r="56"/>
+    <circle cx="1082" cy="625" r="56"/>
+  </g>
+</svg>
