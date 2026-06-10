@@ -387,11 +387,6 @@ export default function WeddingInvitation({ guestName }: WeddingInvitationProps)
       <section id="galeri" className="section gallery-section">
         <p className="eyebrow reveal">Galeri</p>
         <h2 className="reveal">Foto Pernikahan</h2>
-        <p className="section-note reveal">
-          Foto dimuat dari Supabase Storage bucket{" "}
-          <strong>{galleryBucket}</strong>. Jika bucket kosong, gambar referensi
-          lokal digunakan sebagai fallback.
-        </p>
         <div className="gallery-grid reveal-stagger">
           {gallery.map((image) => (
             <Image
